@@ -1,5 +1,7 @@
 # nextcloud-caddy-docker
 
+# Tested on CentOS Stream 9
+
 # Requirements
 
 - docker compose
