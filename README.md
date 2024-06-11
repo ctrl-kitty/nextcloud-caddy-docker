@@ -4,8 +4,6 @@
 
 - docker compose
 
-
-
 # Installation & Running
 
 1. Change pihole dns records in dns-pihole/etc-pihole/custom.list. Just set X.X.X.X to your host ip
@@ -20,7 +18,6 @@ TIMEZONE="Europe/Moscow"
 PIHOLE_WEBPASSWORD=
 # DB CONFIGURATION
 DB_USER=
-DB_PORT=5432
 DB_PASSWORD=
 DB_NAME=
 # NEXTCLOUD CONFIGURATION
@@ -29,8 +26,6 @@ NEXTCLOUD_ADMIN_PASSWORD=
 # if change, change caddyfile+dns record
 NEXTCLOUD_HOST=nextcloud.local
 ```
-
-
 
 # TODO:
 

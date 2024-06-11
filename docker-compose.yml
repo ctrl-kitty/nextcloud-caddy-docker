@@ -23,7 +23,6 @@ services:
   db:
     image: postgres:latest
     environment:
-      - PGPORT=${DB_PORT}
       - POSTGRES_USER=${DB_USER}
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
