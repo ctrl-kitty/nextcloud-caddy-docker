@@ -9,6 +9,8 @@
 1. Change pihole dns records in dns-pihole/etc-pihole/custom.list. Just set X.X.X.X to your host ip
 2. Create .env file(example below)
 3. docker compose build && docker compose up -d
+4. Set your dns to docker host ip
+5. Porfit. Pihole accessable on pihole.local & nextcloud on nextcloud.local
 
 # .env example
 
