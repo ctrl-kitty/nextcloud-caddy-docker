@@ -1,0 +1,11 @@
+https://pihole.local:443 {
+  redir / /admin
+
+# 80 - pihole container port(web)
+  reverse_proxy dns-pihole:80
+  tls internal
+}
+https://nextcloud.local:443 {
+  reverse_proxy nextcloud:80
+  tls internal
+}
